@@ -94,4 +94,51 @@
     height: 10rem;
     left: 13rem;
   }
+
+  .dois .card3 {
+    width: 10rem;
+    height: 10rem;
+    top: 80rem;
+    left: 2rem;
+  }
+
+  .dois .card4 {
+    width: 10rem;
+    height: 10rem;
+    top: 80rem;
+    left: 13rem;
+  }
+
+  .dois .card5 {
+    width: 10rem;
+    height: 10rem;
+    top: 91rem;
+    left: 2rem;
+  }
+
+  .dois .card6 {
+    width: 10rem;
+    height: 10rem;
+    top: 91rem;
+    left: 13rem;
+  }
+
+  .dois .card7 {
+    width: 10rem;
+    height: 10rem;
+    top: 102rem;
+    left: 2rem;
+  }
+
+  .dois .card8 {
+    width: 10rem;
+    height: 10rem;
+    top: 102rem;
+    left: 13rem;
+  }
+
+  .dois .github {
+    top: 114rem;
+    left: 2rem;
+  }
 }
