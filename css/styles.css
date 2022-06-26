@@ -221,7 +221,7 @@ body {
 .dois .card1 {
   width: 12rem;
   height: 12rem;
-  top: 70rem;
+  top: 69rem;
   left: 13rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -266,7 +266,7 @@ body {
 .dois .card2 {
   width: 12rem;
   height: 12rem;
-  top: 70rem;
+  top: 69rem;
   left: 26rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -311,7 +311,7 @@ body {
 .dois .card3 {
   width: 12rem;
   height: 12rem;
-  top: 70rem;
+  top: 69rem;
   left: 39rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -356,7 +356,7 @@ body {
 .dois .card4 {
   width: 12rem;
   height: 12rem;
-  top: 70rem;
+  top: 69rem;
   left: 52rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -401,7 +401,7 @@ body {
 .dois .card5 {
   width: 12rem;
   height: 12rem;
-  top: 70rem;
+  top: 69rem;
   left: 65rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -441,6 +441,161 @@ body {
 .dois .card5:is(:hover, :focus) > .text5 {
   transform: scale(1.2);
   opacity: 1;
+}
+
+.dois .card6 {
+  width: 12rem;
+  height: 12rem;
+  top: 82rem;
+  left: 26rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card6 > * {
+  grid-area: main;
+}
+
+.dois .card6 > .img6 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card6 > .text6 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card6:is(:hover, :focus) > .img6 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card6:is(:hover, :focus) > .text6 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card7 {
+  width: 12rem;
+  height: 12rem;
+  top: 82rem;
+  left: 39rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card7 > * {
+  grid-area: main;
+}
+
+.dois .card7 > .img7 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card7 > .text7 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card7:is(:hover, :focus) > .img7 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card7:is(:hover, :focus) > .text7 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card8 {
+  width: 12rem;
+  height: 12rem;
+  top: 82rem;
+  left: 52rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card8 > * {
+  grid-area: main;
+}
+
+.dois .card8 > .img8 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card8 > .text8 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card8:is(:hover, :focus) > .img8 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card8:is(:hover, :focus) > .text8 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .github {
+  top: 97rem;
+  left: 36.5rem;
+  font-size: 1rem;
+  color: #c9d1d9;
+  position: absolute;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .github:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.tres {
+  width: 100vw;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {
