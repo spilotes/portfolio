@@ -70,7 +70,7 @@
   }
 
   .dois .title {
-    left: 4rem;
+    left: 3.8rem;
   }
 
   .dois .desc {
@@ -78,6 +78,7 @@
   }
 
   .dois .projetos {
-    left: 7rem;
+    top: 65rem;
+    left: 10rem;
   }
 }
