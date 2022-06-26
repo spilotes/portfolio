@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Fixed Header */
+
+.cabecalho {
+  z-index: 10;
+  background: #000000;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 100vw;
+}
+
+.cabecalho--fixo {
+  width: 100vw;
+  height: 3.7rem;
+  top: 0%;
+  left: 0;
+  position: fixed;
+  box-shadow: 0px 0px 0px 1px #00131a;
+}
+
+/* Logo */
+
+.cabecalho .logo {
+  width: 8rem;
+  top: 1.1em;
+  left: 9rem;
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#030008),
+    to(#00131a)
+  );
+  overflow-x: hidden;
+}
+
+.um {
+  height: 100vh;
+  width: 100vw;
+}
+
+#dia {
+  font-size: 2.3rem;
+  font-weight: 500;
+  top: 5rem;
+  left: 9rem;
+  color: #c9d1d9;
+  position: absolute;
+  visibility: hidden;
+}
+
+.saudacao {
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  top: 7.5rem;
+  left: 9.1rem;
+  position: absolute;
+  visibility: hidden;
+}
+
+.yo {
+  width: 17rem;
+  top: 10rem;
+  left: 36rem;
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.yo:hover {
+  transform: scale(1.03);
+}
+
+.css {
+  width: 4rem;
+  top: 11rem;
+  left: 34.5rem;
+  position: absolute;
+}
+
+.react {
+  width: 4.5rem;
+  top: 15.5rem;
+  left: 52rem;
+  position: absolute;
+}
+
+.js {
+  width: 3.5rem;
+  top: 26rem;
+  left: 37rem;
+  position: absolute;
+}
+
+.um .h3 {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  top: 31rem;
+  left: 37rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.um .h3:hover {
+  color: #fff;
+}
+
+.um .apelido {
+  top: 32.6rem;
+  left: 37rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #6b727c;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.um .apelido:hover {
+  color: #c9d1d9;
+}
+
+.um .webdev {
+  top: 36.5rem;
+  left: 37rem;
+  cursor: pointer;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.um .webdev:hover {
+  color: #fff;
+}
+
+.um .local {
+  top: 38rem;
+  left: 37.3rem;
+  cursor: pointer;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.um .local:hover {
+  color: #fff;
+}
+
+.um .email {
+  top: 39.5rem;
+  left: 37rem;
+  color: #c9d1d9;
+  text-decoration: none;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.um .email:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.dois {
+  height: 100vh;
+  width: 100vw;
+}
+
+.dois .title {
+  top: 50rem;
+  left: 36rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .title:hover {
+  color: #fff;
+}
+
+.dois .desc {
+  color: #c9d1d9;
+  top: 55rem;
+  left: 25rem;
+  position: absolute;
+}
+
+.dois .projetos {
+  top: 64rem;
+  left: 42rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .projetos:hover {
+  color: #fff;
+}
+
+.dois .card1 {
+  width: 12rem;
+  height: 12rem;
+  top: 69rem;
+  left: 13rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card1 > * {
+  grid-area: main;
+}
+
+.dois .card1 > .img1 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card1 > .text1 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card1:is(:hover, :focus) > .img1 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card1:is(:hover, :focus) > .text1 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card2 {
+  width: 12rem;
+  height: 12rem;
+  top: 69rem;
+  left: 26rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card2 > * {
+  grid-area: main;
+}
+
+.dois .card2 > .img2 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card2 > .text2 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card2:is(:hover, :focus) > .img2 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card2:is(:hover, :focus) > .text2 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card3 {
+  width: 12rem;
+  height: 12rem;
+  top: 69rem;
+  left: 39rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card3 > * {
+  grid-area: main;
+}
+
+.dois .card3 > .img3 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card3 > .text3 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card3:is(:hover, :focus) > .img3 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card3:is(:hover, :focus) > .text3 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card4 {
+  width: 12rem;
+  height: 12rem;
+  top: 69rem;
+  left: 52rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card4 > * {
+  grid-area: main;
+}
+
+.dois .card4 > .img4 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card4 > .text4 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card4:is(:hover, :focus) > .img4 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card4:is(:hover, :focus) > .text4 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card5 {
+  width: 12rem;
+  height: 12rem;
+  top: 69rem;
+  left: 65rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card5 > * {
+  grid-area: main;
+}
+
+.dois .card5 > .img5 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card5 > .text5 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card5:is(:hover, :focus) > .img5 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card5:is(:hover, :focus) > .text5 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card6 {
+  width: 12rem;
+  height: 12rem;
+  top: 82rem;
+  left: 26rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card6 > * {
+  grid-area: main;
+}
+
+.dois .card6 > .img6 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card6 > .text6 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card6:is(:hover, :focus) > .img6 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card6:is(:hover, :focus) > .text6 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card7 {
+  width: 12rem;
+  height: 12rem;
+  top: 82rem;
+  left: 39rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card7 > * {
+  grid-area: main;
+}
+
+.dois .card7 > .img7 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card7 > .text7 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card7:is(:hover, :focus) > .img7 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card7:is(:hover, :focus) > .text7 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .card8 {
+  width: 12rem;
+  height: 12rem;
+  top: 82rem;
+  left: 52rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dois .card8 > * {
+  grid-area: main;
+}
+
+.dois .card8 > .img8 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 400ms, filter 400ms;
+}
+
+.dois .card8 > .text8 {
+  opacity: 0;
+  color: #fff;
+  font-size: 1.3rem;
+
+  transition: opacity 400ms, transform 400ms;
+}
+
+.dois .card8:is(:hover, :focus) > .img8 {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.dois .card8:is(:hover, :focus) > .text8 {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.dois .github {
+  top: 97rem;
+  left: 36.5rem;
+  font-size: 1rem;
+  color: #c9d1d9;
+  position: absolute;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .github:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.tres {
+  width: 100vw;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
+}
