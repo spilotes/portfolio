@@ -82,4 +82,16 @@
     top: 64rem;
     left: 10rem;
   }
+
+  .dois .card1 {
+    width: 10rem;
+    height: 10rem;
+    left: 2rem;
+  }
+
+  .dois .card2 {
+    width: 10rem;
+    height: 10rem;
+    left: 13rem;
+  }
 }
