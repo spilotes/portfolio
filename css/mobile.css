@@ -18,51 +18,51 @@
 
   .yo {
     width: 11rem;
-    top: 12.5rem;
+    top: 13rem;
     left: 7rem;
     border-radius: 7rem;
   }
 
   .css {
     width: 3rem;
-    top: 12rem;
+    top: 12.5rem;
     left: 6rem;
   }
 
   .react {
     width: 4rem;
-    top: 15rem;
+    top: 15.5rem;
     left: 17rem;
   }
 
   .js {
     width: 3rem;
-    top: 23.5rem;
+    top: 24rem;
     left: 7.5rem;
   }
 
   .um .h3 {
-    top: 29rem;
+    top: 29.5rem;
     left: 5.5rem;
   }
 
   .um .apelido {
-    top: 30.6rem;
+    top: 31.1rem;
     left: 5.5rem;
   }
 
   .um .webdev {
-    top: 34rem;
+    top: 34.5rem;
     left: 5.5rem;
   }
 
   .um .local {
-    top: 35.5rem;
+    top: 36rem;
     left: 5.5rem;
   }
 
   .um .email {
-    top: 37.5rem;
+    top: 38rem;
     left: 5.5rem;
   }
 }
