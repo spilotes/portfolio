@@ -23,6 +23,21 @@
     border-radius: 7rem;
   }
 
+  .css {
+    top: 9rem;
+    left: 4.5rem;
+  }
+
+  .react {
+    top: 13.5rem;
+    left: 7rem;
+  }
+
+  .js {
+    top: 24rem;
+    left: 5rem;
+  }
+
   .um .h3 {
     top: 27rem;
     left: 5.5rem;
