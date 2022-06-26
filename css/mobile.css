@@ -74,11 +74,12 @@
   }
 
   .dois .desc {
+    top: 54rem;
     left: 2rem;
   }
 
   .dois .projetos {
-    top: 65rem;
+    top: 64rem;
     left: 10rem;
   }
 }
