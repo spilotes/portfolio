@@ -30,12 +30,13 @@
 
   .react {
     top: 15rem;
-    left: 15rem;
+    left: 18rem;
   }
 
   .js {
-    top: 22rem;
-    left: 6rem;
+    width: 3rem;
+    top: 23rem;
+    left: 6.5rem;
   }
 
   .um .h3 {
