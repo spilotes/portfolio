@@ -21,3 +21,7 @@ ScrollReveal().reveal(".desc", {
 ScrollReveal().reveal(".projetos", {
   duration: 4000,
 });
+
+ScrollReveal().reveal(".card-container", {
+  duration: 4000,
+});

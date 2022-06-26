@@ -218,6 +218,10 @@ body {
   color: #fff;
 }
 
+.dois .card-container {
+  visibility: hidden;
+}
+
 .dois .card1 {
   width: 12rem;
   height: 12rem;
