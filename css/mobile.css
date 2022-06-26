@@ -68,4 +68,16 @@
     left: 5.5rem;
     font-size: 1.1rem;
   }
+
+  .dois .title {
+    left: 4rem;
+  }
+
+  .dois .desc {
+    left: 2rem;
+  }
+
+  .dois .projetos {
+    left: 7rem;
+  }
 }

@@ -188,6 +188,7 @@ body {
   color: #c9d1d9;
   position: absolute;
   transition: all 300ms ease-in-out;
+  visibility: hidden;
 }
 
 .dois .title:hover {
@@ -199,6 +200,7 @@ body {
   top: 55rem;
   left: 25rem;
   position: absolute;
+  visibility: hidden;
 }
 
 .dois .projetos {
@@ -209,6 +211,7 @@ body {
   color: #c9d1d9;
   position: absolute;
   transition: all 300ms ease-in-out;
+  visibility: hidden;
 }
 
 .dois .projetos:hover {
