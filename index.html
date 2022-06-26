@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" type="imagex/png" href="./img/logoA.ico" />
+    <title>spilotes</title>
+  </head>
+  <body>
+    <header class="cabecalho cabecalho--fixo">
+      <div class="google">
+        <a href="https://spilotes.github.io/home/" target="_blank">
+          <img class="logo" src="./img/logo.png" alt="spilotes"
+        /></a>
+      </div>
+    </header>
+    <section class="um">
+      <div>
+        <h1 id="dia"></h1>
+      </div>
+
+      <div class="saudacao">
+        <script language="JavaScript">
+          now = new Date();
+          if (now.getHours() >= 0 && now.getHours() < 5) {
+            document.write("boa madrugada, headbanger.🤘🏼");
+          } else if (now.getHours() >= 5 && now.getHours() < 12) {
+            document.write("bom dia, headbanger.🤘🏼");
+          } else if (now.getHours() >= 12 && now.getHours() < 18) {
+            document.write("boa tarde, headbanger.🤘🏼");
+          } else {
+            document.write("boa noite, headbanger.🤘🏼");
+          }
+        </script>
+      </div>
+    </section>
+
+    <div class="text"></div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./js/header.js"></script>
+    <script src="./js/dia.js"></script>
+    <script src="./js/scrollreveal.js"></script>
+    <script src="./js/TypeWriter.js"></script>
+  </body>
+</html>
