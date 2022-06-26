@@ -1,7 +1,7 @@
 @media (max-width: 414px) {
-  .logo {
+  .cabecalho .logo {
     width: 8.5rem;
-    top: 1em;
+    top: 1rem;
     left: 2rem;
   }
 
@@ -14,5 +14,12 @@
   .saudacao {
     font-size: 1.1rem;
     left: 1.1rem;
+  }
+
+  .yo {
+    width: 12rem;
+    top: 8.5rem;
+    left: 26%;
+    border-radius: 6rem;
   }
 }
