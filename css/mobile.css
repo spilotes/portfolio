@@ -37,32 +37,32 @@
 
   .js {
     width: 3rem;
-    top: 23rem;
-    left: 7rem;
+    top: 23.5rem;
+    left: 7.5rem;
   }
 
   .um .h3 {
-    top: 28rem;
+    top: 29rem;
     left: 5.5rem;
   }
 
   .um .apelido {
-    top: 29.6rem;
+    top: 30.6rem;
     left: 5.5rem;
   }
 
   .um .webdev {
-    top: 33.5rem;
+    top: 34.5rem;
     left: 5.5rem;
   }
 
   .um .local {
-    top: 35rem;
+    top: 36rem;
     left: 5.5rem;
   }
 
   .um .email {
-    top: 37rem;
+    top: 38rem;
     left: 5.5rem;
   }
 }
