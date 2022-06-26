@@ -54,16 +54,18 @@
   .um .webdev {
     top: 34.5rem;
     left: 5.5rem;
+    font-size: 1.1rem;
   }
 
   .um .local {
     top: 36rem;
     left: 5.5rem;
+    font-size: 1.1rem;
   }
 
   .um .email {
     top: 37.5rem;
     left: 5.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
