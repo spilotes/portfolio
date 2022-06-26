@@ -84,6 +84,27 @@ body {
   transform: scale(1.03);
 }
 
+.css {
+  width: 4rem;
+  top: 9rem;
+  left: 34.5rem;
+  position: absolute;
+}
+
+.react {
+  width: 4rem;
+  top: 13.5rem;
+  left: 52.5rem;
+  position: absolute;
+}
+
+.js {
+  width: 3.5rem;
+  top: 24rem;
+  left: 37rem;
+  position: absolute;
+}
+
 .um .h3 {
   cursor: pointer;
   font-size: 1.6rem;
@@ -153,4 +174,22 @@ body {
 .um .email:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+.dois {
+  height: 100vh;
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
 }
