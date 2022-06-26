@@ -24,13 +24,15 @@
   }
 
   .css {
-    top: 12.5rem;
+    width: 3.5rem;
+    top: 12rem;
     left: 5rem;
   }
 
   .react {
+    width: 4rem;
     top: 15rem;
-    left: 18rem;
+    left: 17rem;
   }
 
   .js {
