@@ -18,33 +18,33 @@
 
   .yo {
     width: 13rem;
-    top: 10rem;
+    top: 11rem;
     left: 26%;
-    border-radius: 6rem;
+    border-radius: 7rem;
   }
 
   .um .h3 {
-    top: 26rem;
-    left: 5rem;
+    top: 27rem;
+    left: 7rem;
   }
 
   .um .apelido {
-    top: 27.6rem;
-    left: 5rem;
+    top: 28.6rem;
+    left: 7rem;
   }
 
   .um .webdev {
-    top: 31.5rem;
-    left: 5rem;
+    top: 32.5rem;
+    left: 7rem;
   }
 
   .um .local {
-    top: 33rem;
-    left: 5rem;
+    top: 34rem;
+    left: 7rem;
   }
 
   .um .email {
-    top: 35rem;
-    left: 5rem;
+    top: 36rem;
+    left: 7rem;
   }
 }
