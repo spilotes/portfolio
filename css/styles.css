@@ -180,6 +180,41 @@ body {
   width: 100vw;
 }
 
+.dois .title {
+  top: 50rem;
+  left: 36rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .title:hover {
+  color: #fff;
+}
+
+.dois .desc {
+  color: #c9d1d9;
+  top: 55rem;
+  left: 25rem;
+  position: absolute;
+}
+
+.dois .projetos {
+  top: 64rem;
+  left: 42rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .projetos:hover {
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
