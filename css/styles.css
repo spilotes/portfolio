@@ -73,7 +73,7 @@ body {
 
 .yo {
   width: 17rem;
-  top: 8rem;
+  top: 10rem;
   left: 36rem;
   position: absolute;
   border-radius: 50%;
@@ -86,21 +86,21 @@ body {
 
 .css {
   width: 4rem;
-  top: 9rem;
+  top: 11rem;
   left: 34.5rem;
   position: absolute;
 }
 
 .react {
   width: 4.5rem;
-  top: 13.5rem;
+  top: 15.5rem;
   left: 52rem;
   position: absolute;
 }
 
 .js {
   width: 3.5rem;
-  top: 24rem;
+  top: 26rem;
   left: 37rem;
   position: absolute;
 }
@@ -109,7 +109,7 @@ body {
   cursor: pointer;
   font-size: 1.6rem;
   font-weight: 600;
-  top: 29rem;
+  top: 31rem;
   left: 37rem;
   color: #c9d1d9;
   position: absolute;
@@ -121,7 +121,7 @@ body {
 }
 
 .um .apelido {
-  top: 30.6rem;
+  top: 32.6rem;
   left: 37rem;
   cursor: pointer;
   font-size: 1.3rem;
@@ -136,7 +136,7 @@ body {
 }
 
 .um .webdev {
-  top: 34.5rem;
+  top: 36.5rem;
   left: 37rem;
   cursor: pointer;
   color: #c9d1d9;
@@ -149,8 +149,8 @@ body {
 }
 
 .um .local {
-  top: 36rem;
-  left: 37rem;
+  top: 38rem;
+  left: 37.3rem;
   cursor: pointer;
   color: #c9d1d9;
   position: absolute;
@@ -162,10 +162,9 @@ body {
 }
 
 .um .email {
-  top: 38rem;
-  left: 37.1rem;
+  top: 39.5rem;
+  left: 37rem;
   color: #c9d1d9;
-  font-size: 1.2rem;
   text-decoration: none;
   position: absolute;
   transition: all 0.3s ease-in-out;
