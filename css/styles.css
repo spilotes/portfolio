@@ -177,7 +177,7 @@ body {
 }
 
 .dois {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
 }
 
@@ -203,7 +203,7 @@ body {
 }
 
 .dois .projetos {
-  top: 64rem;
+  top: 68rem;
   left: 42rem;
   cursor: pointer;
   font-size: 1.3rem;
@@ -219,8 +219,8 @@ body {
 .dois .card1 {
   width: 12rem;
   height: 12rem;
-  top: 69rem;
-  left: 13rem;
+  top: 73rem;
+  left: 26rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -264,8 +264,8 @@ body {
 .dois .card2 {
   width: 12rem;
   height: 12rem;
-  top: 69rem;
-  left: 26rem;
+  top: 73rem;
+  left: 39rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -309,8 +309,8 @@ body {
 .dois .card3 {
   width: 12rem;
   height: 12rem;
-  top: 69rem;
-  left: 39rem;
+  top: 73rem;
+  left: 52rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -354,7 +354,7 @@ body {
 .dois .card4 {
   width: 12rem;
   height: 12rem;
-  top: 69rem;
+  top: 86rem;
   left: 52rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -399,8 +399,8 @@ body {
 .dois .card5 {
   width: 12rem;
   height: 12rem;
-  top: 69rem;
-  left: 65rem;
+  top: 86rem;
+  left: 39rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -444,7 +444,7 @@ body {
 .dois .card6 {
   width: 12rem;
   height: 12rem;
-  top: 82rem;
+  top: 86rem;
   left: 26rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -489,8 +489,8 @@ body {
 .dois .card7 {
   width: 12rem;
   height: 12rem;
-  top: 82rem;
-  left: 39rem;
+  top: 99rem;
+  left: 32.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -534,8 +534,8 @@ body {
 .dois .card8 {
   width: 12rem;
   height: 12rem;
-  top: 82rem;
-  left: 52rem;
+  top: 99rem;
+  left: 45.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -577,7 +577,7 @@ body {
 }
 
 .dois .t-github {
-  top: 97rem;
+  top: 113rem;
   left: 38rem;
   font-size: 1rem;
   color: #c9d1d9;
@@ -587,7 +587,7 @@ body {
 .dois .github {
   width: 4.5rem;
   border-radius: 2.25rem;
-  top: 100rem;
+  top: 116rem;
   left: 43rem;
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -598,7 +598,7 @@ body {
 }
 
 .dois .s-github {
-  top: 105rem;
+  top: 121rem;
   left: 43.65rem;
   font-size: 1rem;
   color: #c9d1d9;
