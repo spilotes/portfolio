@@ -53,10 +53,6 @@
   transition: all 500ms ease-in-out;
 }
 
-.cabecalho .menu::active {
-  left: 68rem;
-}
-
 input[type="checkbox"] {
   display: none;
 }

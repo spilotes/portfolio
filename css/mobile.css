@@ -7,7 +7,15 @@
 
   .cabecalho .menu {
     top: 1.2rem;
-    left: 10rem;
+    left: 20rem;
+  }
+
+  .cabecalho .contatos {
+    font-weight: 400;
+  }
+
+  nav {
+    height: 37rem;
   }
 
   #dia {
