@@ -5,6 +5,11 @@
     left: 1rem;
   }
 
+  .cabecalho .menu {
+    top: 1.2rem;
+    left: 10rem;
+  }
+
   #dia {
     font-size: 2rem;
     top: 5rem;
