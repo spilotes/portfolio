@@ -675,6 +675,31 @@ body {
   height: 100vh;
 }
 
+.tres .counter {
+  position: absolute;
+  top: 160rem;
+  right: 1rem;
+}
+
+.tres .start {
+  font-size: 2rem;
+  top: 156rem;
+  right: 1rem;
+  cursor: pointer;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.tres .start:hover {
+  transform: scale(1.1);
+}
+
+.tres .total {
+  position: absolute;
+  top: 160rem;
+  right: 4rem;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
