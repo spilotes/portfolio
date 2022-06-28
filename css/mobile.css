@@ -169,4 +169,18 @@
     top: 130rem;
     left: 11.3rem;
   }
+
+  .tres .start {
+    top: 203rem;
+  }
+
+  .tres .total {
+    position: absolute;
+    top: 200rem;
+  }
+
+  .tres .counter {
+    top: 200rem;
+    right: 1rem;
+  }
 }
