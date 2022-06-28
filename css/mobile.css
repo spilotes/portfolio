@@ -13,11 +13,12 @@
   .cabecalho .contatos {
     font-size: 2rem;
     margin-top: 0;
-    margin-left: 3.7rem;
+    margin-left: 3.6rem;
+    margin-bottom: 0.5rem;
   }
 
   nav {
-    height: 37.1rem;
+    height: 38rem;
   }
 
   #dia {
