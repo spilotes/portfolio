@@ -34,139 +34,140 @@
 
   .yo {
     width: 11rem;
-    top: 13rem;
+    top: 14rem;
     left: 7rem;
     border-radius: 7rem;
   }
 
   .css {
     width: 3rem;
-    top: 12.5rem;
+    top: 13.5rem;
     left: 6.5rem;
   }
 
   .react {
     width: 4rem;
-    top: 15.5rem;
+    top: 16.5rem;
     left: 17rem;
   }
 
   .js {
     width: 3rem;
-    top: 24rem;
+    top: 25rem;
     left: 7.5rem;
   }
 
   .um .h3 {
-    top: 29.5rem;
+    top: 30.5rem;
     left: 5.5rem;
   }
 
   .um .apelido {
-    top: 31.1rem;
+    top: 32.1rem;
     left: 5.5rem;
   }
 
   .um .webdev {
-    top: 34.5rem;
+    top: 35.5rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   .um .local {
-    top: 36rem;
+    top: 37rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   .um .email {
-    top: 37.5rem;
+    top: 38.5rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   .dois .title {
+    top: 53rem;
     left: 3.8rem;
   }
 
   .dois .desc {
-    top: 54rem;
+    top: 56rem;
     left: 2rem;
   }
 
   .dois .projetos {
-    top: 73rem;
+    top: 80rem;
     left: 10rem;
   }
 
   .dois .card1 {
     width: 10rem;
     height: 10rem;
-    top: 78rem;
+    top: 83rem;
     left: 2.3rem;
   }
 
   .dois .card2 {
     width: 10rem;
     height: 10rem;
-    top: 78rem;
+    top: 83rem;
     left: 13.3rem;
   }
 
   .dois .card3 {
     width: 10rem;
     height: 10rem;
-    top: 89rem;
+    top: 94rem;
     left: 2.3rem;
   }
 
   .dois .card4 {
     width: 10rem;
     height: 10rem;
-    top: 89rem;
+    top: 94rem;
     left: 13.3rem;
   }
 
   .dois .card5 {
     width: 10rem;
     height: 10rem;
-    top: 100rem;
+    top: 105rem;
     left: 2.3rem;
   }
 
   .dois .card6 {
     width: 10rem;
     height: 10rem;
-    top: 100rem;
+    top: 105rem;
     left: 13.3rem;
   }
 
   .dois .card7 {
     width: 10rem;
     height: 10rem;
-    top: 111rem;
+    top: 116rem;
     left: 2.3rem;
   }
 
   .dois .card8 {
     width: 10rem;
     height: 10rem;
-    top: 111rem;
+    top: 116rem;
     left: 13.3rem;
   }
 
   .dois .t-github {
-    top: 123rem;
+    top: 128rem;
     left: 6rem;
   }
 
   .dois .github {
-    top: 125rem;
+    top: 130rem;
     left: 10.6rem;
   }
 
   .dois .s-github {
-    top: 130rem;
+    top: 135rem;
     left: 11.3rem;
   }
 
