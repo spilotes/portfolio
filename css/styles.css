@@ -268,7 +268,7 @@ body {
 }
 
 .dois .projetos {
-  top: 68rem;
+  top: 70rem;
   left: 42rem;
   cursor: pointer;
   font-size: 1.3rem;
@@ -284,7 +284,7 @@ body {
 .dois .card1 {
   width: 12rem;
   height: 12rem;
-  top: 73rem;
+  top: 75rem;
   left: 26rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -329,7 +329,7 @@ body {
 .dois .card2 {
   width: 12rem;
   height: 12rem;
-  top: 73rem;
+  top: 75rem;
   left: 39rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -374,7 +374,7 @@ body {
 .dois .card3 {
   width: 12rem;
   height: 12rem;
-  top: 73rem;
+  top: 75rem;
   left: 52rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -419,7 +419,7 @@ body {
 .dois .card4 {
   width: 12rem;
   height: 12rem;
-  top: 86rem;
+  top: 88rem;
   left: 52rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -464,7 +464,7 @@ body {
 .dois .card5 {
   width: 12rem;
   height: 12rem;
-  top: 86rem;
+  top: 88rem;
   left: 39rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -509,7 +509,7 @@ body {
 .dois .card6 {
   width: 12rem;
   height: 12rem;
-  top: 86rem;
+  top: 88rem;
   left: 26rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -554,7 +554,7 @@ body {
 .dois .card7 {
   width: 12rem;
   height: 12rem;
-  top: 99rem;
+  top: 101rem;
   left: 32.6rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -599,7 +599,7 @@ body {
 .dois .card8 {
   width: 12rem;
   height: 12rem;
-  top: 99rem;
+  top: 101rem;
   left: 45.6rem;
   border-radius: 0.1rem;
   position: absolute;
@@ -642,7 +642,7 @@ body {
 }
 
 .dois .t-github {
-  top: 113rem;
+  top: 115rem;
   left: 38rem;
   font-size: 1rem;
   color: #c9d1d9;
@@ -653,7 +653,7 @@ body {
 .dois .github {
   width: 4.5rem;
   border-radius: 2.25rem;
-  top: 116rem;
+  top: 117rem;
   left: 43rem;
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -664,7 +664,7 @@ body {
 }
 
 .dois .s-github {
-  top: 121rem;
+  top: 122rem;
   left: 43.65rem;
   font-size: 1rem;
   color: #c9d1d9;
@@ -674,6 +674,11 @@ body {
 
 .dois .s-github a {
 text-decoration: none;
+transition: all 300ms ease-in-out;
+}
+
+.dois .s-github a:hover {
+  color: #fff;
 }
 
 .dois .s-github:hover {
