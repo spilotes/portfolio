@@ -140,7 +140,7 @@ body {
 .yo {
   width: 17rem;
   top: 10rem;
-  left: 36rem;
+  left: 34.5rem;
   position: absolute;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
@@ -153,21 +153,21 @@ body {
 .css {
   width: 4rem;
   top: 11rem;
-  left: 34.5rem;
+  left: 33.3rem;
   position: absolute;
 }
 
 .react {
   width: 4.5rem;
   top: 15.5rem;
-  left: 52rem;
+  left: 50rem;
   position: absolute;
 }
 
 .js {
   width: 3.5rem;
   top: 26rem;
-  left: 37rem;
+  left: 35.5rem;
   position: absolute;
 }
 
@@ -176,7 +176,7 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   top: 31rem;
-  left: 37rem;
+  left: 35.5rem;
   color: #c9d1d9;
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -188,7 +188,7 @@ body {
 
 .um .apelido {
   top: 32.6rem;
-  left: 37rem;
+  left: 35.5rem;
   cursor: pointer;
   font-size: 1.3rem;
   font-style: italic;
@@ -203,7 +203,7 @@ body {
 
 .um .webdev {
   top: 36.5rem;
-  left: 37rem;
+  left: 35.5rem;
   cursor: pointer;
   color: #c9d1d9;
   position: absolute;
@@ -211,7 +211,7 @@ body {
 
 .um .local {
   top: 38rem;
-  left: 37.3rem;
+  left: 35.8rem;
   cursor: pointer;
   color: #c9d1d9;
   position: absolute;
@@ -224,7 +224,7 @@ body {
 
 .um .email {
   top: 39.5rem;
-  left: 37rem;
+  left: 35.5rem;
   color: #c9d1d9;
   text-decoration: none;
   position: absolute;
@@ -243,7 +243,7 @@ body {
 
 .dois .title {
   top: 50rem;
-  left: 36rem;
+  left: 33rem;
   cursor: pointer;
   font-size: 1.3rem;
   color: #c9d1d9;
@@ -258,13 +258,13 @@ body {
 .dois .desc {
   color: #c9d1d9;
   top: 55rem;
-  left: 25rem;
+  left: 22rem;
   position: absolute;
 }
 
 .dois .projetos {
   top: 70rem;
-  left: 38rem;
+  left: 36rem;
   cursor: pointer;
   font-size: 1.3rem;
   color: #c9d1d9;
@@ -280,7 +280,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 75rem;
-  left: 26rem;
+  left: 23.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -325,7 +325,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 75rem;
-  left: 39rem;
+  left: 36.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -370,7 +370,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 75rem;
-  left: 52rem;
+  left: 49.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -415,7 +415,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 88rem;
-  left: 52rem;
+  left: 49.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -460,7 +460,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 88rem;
-  left: 39rem;
+  left: 36.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -505,7 +505,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 88rem;
-  left: 26rem;
+  left: 23.6rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -550,7 +550,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 101rem;
-  left: 32.6rem;
+  left: 30rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -595,7 +595,7 @@ body {
   width: 12rem;
   height: 12rem;
   top: 101rem;
-  left: 45.6rem;
+  left: 43rem;
   border-radius: 0.1rem;
   position: absolute;
   display: grid;
@@ -638,7 +638,7 @@ body {
 
 .dois .t-github {
   top: 115rem;
-  left: 38rem;
+  left: 35.5rem;
   font-size: 1rem;
   color: #c9d1d9;
   position: absolute;
@@ -649,7 +649,7 @@ body {
   width: 4.5rem;
   border-radius: 2.25rem;
   top: 117rem;
-  left: 43rem;
+  left: 40.3rem;
   position: absolute;
   transition: all 0.3s ease-in-out;
 }
@@ -660,7 +660,7 @@ body {
 
 .dois .s-github {
   top: 122rem;
-  left: 43.65rem;
+  left: 41rem;
   font-size: 1rem;
   color: #c9d1d9;
   position: absolute;
@@ -677,6 +677,40 @@ body {
 }
 
 .dois .s-github:hover {
+  color: #fff;
+}
+
+.dois .s-bat {
+  position: absolute;
+  top: 127rem;
+  left: 24rem;
+}
+
+.dois .bat {
+  position: absolute;
+  top: 130rem;
+  left: 37.5rem;
+  width: 10rem;
+  padding: 0.2rem 0.2rem;
+  border: 2px solid #c9d1d9;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .bat:hover {
+  transform: scale(1.02);
+}
+
+.dois .n-bat {
+  position: absolute;
+  top: 140rem;
+  left: 38.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 300ms ease-in-out;
+}
+
+.dois .n-bat:hover {
   color: #fff;
 }
 
