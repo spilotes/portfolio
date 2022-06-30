@@ -42,45 +42,45 @@
   .css {
     width: 3rem;
     top: 13.5rem;
-    left: 6.5rem;
+    left: 7rem;
   }
 
   .react {
     width: 4rem;
     top: 16.5rem;
-    left: 17rem;
+    left: 16.5rem;
   }
 
   .js {
     width: 3rem;
-    top: 25rem;
+    top: 23rem;
     left: 7.5rem;
   }
 
   .um .h3 {
-    top: 30.5rem;
+    top: 29.5rem;
     left: 5.5rem;
   }
 
   .um .apelido {
-    top: 32.1rem;
+    top: 31.1rem;
     left: 5.5rem;
   }
 
   .um .webdev {
-    top: 36.5rem;
+    top: 35rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   .um .local {
-    top: 38rem;
+    top: 36.5rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   .um .email {
-    top: 39.5rem;
+    top: 38rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
