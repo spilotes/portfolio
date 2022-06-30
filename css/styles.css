@@ -147,7 +147,7 @@ body {
 }
 
 .yo:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .css {
@@ -166,8 +166,8 @@ body {
 
 .js {
   width: 3.5rem;
-  top: 26rem;
-  left: 35.5rem;
+  top: 25.5rem;
+  left: 36rem;
   position: absolute;
 }
 
@@ -202,7 +202,7 @@ body {
 }
 
 .um .webdev {
-  top: 36.5rem;
+  top: 36rem;
   left: 35.5rem;
   cursor: pointer;
   color: #c9d1d9;
@@ -210,7 +210,7 @@ body {
 }
 
 .um .local {
-  top: 38rem;
+  top: 37.5rem;
   left: 35.8rem;
   cursor: pointer;
   color: #c9d1d9;
@@ -223,7 +223,7 @@ body {
 }
 
 .um .email {
-  top: 39.5rem;
+  top: 39rem;
   left: 35.5rem;
   color: #c9d1d9;
   text-decoration: none;
