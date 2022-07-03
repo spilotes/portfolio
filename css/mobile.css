@@ -21,6 +21,10 @@
     height: 38.6rem;
   }
 
+  #s-home {
+    height: 200vh;
+  }
+
   #dia {
     font-size: 2rem;
     top: 5rem;
