@@ -159,9 +159,19 @@ body {
 
 .react {
   width: 4.5rem;
-  top: 15.5rem;
-  left: 50rem;
+  top: 12.3rem;
+  left: 48rem;
   position: absolute;
+  animation: girar 24s linear infinite;
+}
+
+@keyframes girar {
+  0% {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(50%, 50%) rotate(-360deg);
+  }
 }
 
 .js {
