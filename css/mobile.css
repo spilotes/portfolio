@@ -191,27 +191,27 @@
   }
 
   .tres .conhecimentos {
-    top: 161rem;
-    left: 7rem;
+    top: 163rem;
+    left: 8rem;
   }
 
   .tres .card-html {
-    top: 114rem;
-    left: 4rem;
+    top: 4rem;
+    left: 1rem;
   }
 
   .tres .card-css {
-    top: 114rem;
+    top: -4rem;
     left: 8rem;
   }
 
   .tres .card-js {
-    top: 118rem;
-    left: 4rem;
+    top: -8rem;
+    left: 1rem;
   }
 
   .tres .card-react {
-    top: 118rem;
+    top: -12rem;
     left: 8rem;
   }
 
