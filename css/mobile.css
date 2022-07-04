@@ -1,145 +1,251 @@
 @media (max-width: 414px) {
-  main #s-home {
-    height: 210vh;
+  .cabecalho .logo {
+    width: 7.5rem;
+    top: 1.2rem;
+    left: 1rem;
+  }
+
+  .cabecalho .menu {
+    top: 1.2rem;
+    left: 22rem;
+  }
+
+  .cabecalho .correio {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 3.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  nav {
+    height: 38.6rem;
+  }
+
+  #s-home {
+    height: 200vh;
   }
 
   #dia {
-    top: 1rem;
-    left: 4%;
     font-size: 2rem;
+    top: 5rem;
+    left: 1rem;
   }
 
-  #s-home .saudacao {
-    top: 3.5rem;
-    left: 4.8%;
+  .saudacao {
+    font-size: 1.1rem;
+    left: 1.1rem;
   }
 
-  #s-home .weather {
-    top: 1rem;
-    left: 92%;
-  }
-
-  #s-home .yo {
+  .yo {
     width: 12rem;
-    top: 9rem;
-    left: 26%;
-    border-radius: 50%;
+    top: 14rem;
+    left: 6.5rem;
+    border-radius: 7rem;
   }
 
-  #s-home .css {
+  .css {
     width: 3rem;
-    top: 8.5rem;
+    top: 13.5rem;
     left: 7rem;
   }
 
-  #s-home .react {
+  .react {
     width: 4rem;
-    top: 10rem;
-    left: 15.5rem;
+    top: 14.2rem;
+    left: 15.3rem;
   }
 
-  #s-home .js {
+  .js {
     width: 3rem;
-    top: 20rem;
-    left: 7.4rem;
+    top: 25rem;
+    left: 7.2rem;
   }
 
-  #s-home .h3 {
-    top: 26.5rem;
+  .um .h3 {
+    top: 29.5rem;
     left: 5.5rem;
   }
 
-  #s-home .apelido {
-    top: 28.1rem;
+  .um .apelido {
+    top: 31.1rem;
     left: 5.5rem;
   }
 
-  #s-home .webdev {
-    top: 32rem;
-    left: 5.5rem;
-    font-size: 1.1rem;
-  }
-
-  #s-home .local {
-    top: 33.5rem;
-    left: 5.5rem;
-    font-size: 1.1rem;
-  }
-
-  #s-home .email {
+  .um .webdev {
     top: 35rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
-  #s-home .port {
-    top: 42rem;
-    left: 9.5rem;
+  .um .local {
+    top: 36.5rem;
+    left: 5.5rem;
+    font-size: 1.1rem;
   }
 
-  #s-home .portfolio {
-    top: 45rem;
-    left: 9.8rem;
+  .um .email {
+    top: 38rem;
+    left: 5.5rem;
+    font-size: 1.1rem;
   }
 
-  #s-home .links {
-    top: 51rem;
-    left: 8.7rem;
-  }
-
-  #s-home .links-container {
+  .dois .title {
     top: 53rem;
-    left: 17%;
+    left: 3.8rem;
   }
 
-  #s-home .links-container aside {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(5, 3.5rem);
-    grid-template-rows: minmax(4rem, auto) repeat(5, 2rem);
+  .dois .desc {
+    top: 58rem;
+    left: 2rem;
   }
 
-  #s-home .links-container aside i {
-    font-size: 2.6rem;
-    padding: 0;
+  .dois .projetos {
+    top: 81rem;
+    left: 7rem;
   }
 
-  #s-home .s-bat {
-    top: 67rem;
-    left: 1.2rem;
+  .dois .card1 {
+    width: 10rem;
+    height: 10rem;
+    top: 86rem;
+    left: 2.3rem;
   }
 
-  #s-home .bat {
-    top: 72rem;
-    left: 7.8rem;
-    visibility: visible;
+  .dois .card2 {
+    width: 10rem;
+    height: 10rem;
+    top: 86rem;
+    left: 13.3rem;
   }
 
-  #s-home .n-bat {
-    top: 82rem;
-    left: 8.9rem;
-    visibility: visible;
+  .dois .card3 {
+    width: 10rem;
+    height: 10rem;
+    top: 97rem;
+    left: 2.3rem;
   }
 
-  #s-home .dicas {
-    top: 88rem;
-    left: 7.8rem;
+  .dois .card4 {
+    width: 10rem;
+    height: 10rem;
+    top: 97rem;
+    left: 13.3rem;
   }
 
-  #s-home .leitura {
-    top: 92rem;
-    left: 4rem;
-    width: 18rem;
-    visibility: visible;
+  .dois .card5 {
+    width: 10rem;
+    height: 10rem;
+    top: 108rem;
+    left: 2.3rem;
   }
 
-  #s-home .total {
-    top: 104rem;
-    right: 4rem;
+  .dois .card6 {
+    width: 10rem;
+    height: 10rem;
+    top: 108rem;
+    left: 13.3rem;
   }
 
-  #s-home .counter {
-    top: 104rem;
+  .dois .card7 {
+    width: 10rem;
+    height: 10rem;
+    top: 119rem;
+    left: 2.3rem;
+  }
+
+  .dois .card8 {
+    width: 10rem;
+    height: 10rem;
+    top: 119rem;
+    left: 13.3rem;
+  }
+
+  .dois .t-github {
+    top: 131rem;
+    left: 6rem;
+  }
+
+  .dois .github {
+    top: 133rem;
+    left: 10.6rem;
+  }
+
+  .dois .s-github {
+    top: 138rem;
+    left: 11.3rem;
+  }
+
+  .dois .s-bat {
+    top: 143rem;
+    left: 2rem;
+  }
+
+  .dois .bat {
+    top: 147.5rem;
+    left: 8rem;
+  }
+
+  .dois .n-bat {
+    top: 157.8rem;
+    left: 9.2rem;
+  }
+
+  .tres .conhecimentos {
+    top: 164.8rem;
+    left: 6.8rem;
+  }
+
+  .tres .obs {
+    top: 166.3rem;
+    left: 0.9rem;
+  }
+
+  .tres .card-html {
+    top: 16rem;
+    left: 3.4rem;
+  }
+
+  .tres .card-css {
+    top: 13rem;
+    left: 3.4rem;
+  }
+
+  .tres .card-js {
+    top: 10rem;
+    left: 3.4rem;
+  }
+
+  .tres .card-react {
+    top: 7rem;
+    left: 3.4rem;
+  }
+
+  .quatro {
+    width: 100vw;
+    height: 130vh;
+  }
+
+  .quatro .servicos {
+    top: 224rem;
+    left: 9.2rem;
+  }
+
+  .quatro .building {
+    top: 227rem;
+    left: 9.2rem;
+  }
+
+  .quatro .start {
+    top: 259rem;
+  }
+
+  .quatro .total {
+    position: absolute;
+    top: 264rem;
+  }
+
+  .quatro .counter {
+    top: 264rem;
     right: 1rem;
   }
-} ;
+}
