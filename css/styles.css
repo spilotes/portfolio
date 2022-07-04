@@ -753,6 +753,19 @@ body {
   transition: all 300ms ease-in-out;
 }
 
+.tres .obs {
+  position: absolute;
+  font-size: 0.9rem;
+  top: 150rem;
+  left: 30.5rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.tres .obs:hover {
+  color: #fff;
+}
+
 .tres .conhecimentos:hover {
   color: #fff;
 }

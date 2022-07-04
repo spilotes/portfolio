@@ -191,46 +191,56 @@
   }
 
   .tres .conhecimentos {
-    top: 163.8rem;
+    top: 164.8rem;
     left: 7.5rem;
   }
 
+  .tres .obs {
+    top: 167.8rem;
+    left: 4.5rem;
+  }
+
   .tres .card-html {
-    top: 14rem;
+    top: 15rem;
     left: 3.5rem;
   }
 
   .tres .card-css {
-    top: 11rem;
+    top: 12rem;
     left: 3.5rem;
   }
 
   .tres .card-js {
-    top: 8rem;
+    top: 9rem;
     left: 3.5rem;
   }
 
   .tres .card-react {
-    top: 5rem;
+    top: 6rem;
     left: 3.5rem;
   }
 
+  .quatro {
+    width: 100vw;
+    height: 130vh;
+  }
+
   .quatro .servicos {
-    top: 222rem;
+    top: 223rem;
     left: 9.2rem;
   }
 
   .quatro .start {
-    top: 249rem;
+    top: 257rem;
   }
 
   .quatro .total {
     position: absolute;
-    top: 255rem;
+    top: 260rem;
   }
 
   .quatro .counter {
-    top: 255rem;
+    top: 260rem;
     right: 1rem;
   }
 }
