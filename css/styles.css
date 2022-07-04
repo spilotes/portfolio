@@ -743,28 +743,406 @@ body {
   height: 100vh;
 }
 
-.tres .start {
+.tres .conhecimentos {
+  top: 148rem;
+  left: 36.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.tres .conhecimentos:hover {
+  color: #fff;
+}
+
+.tres .card-html {
+  top: 30rem;
+  left: 12rem;
+  position: relative;
+  width: 19rem;
+  height: 15rem;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-html .circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tres .card-html .circle1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  clip-path: circle(3.5rem at center);
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-html:hover .circle1:before {
+  background: linear-gradient(to right, #c9d1d9, #00131a);
+  clip-path: circle(25rem at center);
+}
+
+.tres .card-html .img-html {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4.3rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(0 0 1em #c9d1d9);
+}
+
+.tres .card-html:hover .img-html {
+  left: 78%;
+  height: 3.7rem;
+}
+
+.tres .card-html .content1 {
+  position: relative;
+  width: 70%;
+  left: 5%;
+  padding: 1rem 1rem 1rem 1rem;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tres .card-html:hover .content1 {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.tres .card-html .content1 .t-html {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.tres .card-html .content1 .desc-html {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.tres .card-css {
+  top: 15rem;
+  left: 26rem;
+  position: relative;
+  width: 19rem;
+  height: 15rem;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-css .circle2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tres .card-css .circle2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  clip-path: circle(3.5rem at center);
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-css:hover .circle2:before {
+  background: linear-gradient(to right, #c9d1d9, #00131a);
+  clip-path: circle(25rem at center);
+}
+
+.tres .card-css .img-css {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4.5rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(0 0 1em #c9d1d9);
+}
+
+.tres .card-css:hover .img-css {
+  left: 78%;
+  height: 4rem;
+}
+
+.tres .card-css .content2 {
+  position: relative;
+  width: 70%;
+  left: 5%;
+  padding: 1rem 1rem 1rem 1rem;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tres .card-css:hover .content2 {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.tres .card-css .content2 .t-css {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.tres .card-css .content2 .desc-css {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.tres .card-js {
+  top: 0;
+  left: 40rem;
+  position: relative;
+  width: 19rem;
+  height: 15rem;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-js .circle3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tres .card-js .circle3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  clip-path: circle(3.5rem at center);
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-js:hover .circle3:before {
+  background: linear-gradient(to right, #c9d1d9, #00131a);
+  clip-path: circle(25rem at center);
+}
+
+.tres .card-js .img-js {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(0 0 1em #c9d1d9);
+}
+
+.tres .card-js:hover .img-js {
+  left: 78%;
+  height: 3.5rem;
+}
+
+.tres .card-js .content3 {
+  position: relative;
+  width: 70%;
+  left: 5%;
+  padding: 1rem 1rem 1rem 1rem;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tres .card-js:hover .content3 {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.tres .card-js .content3 .t-js {
+  font-size: 1.3rem;
+  line-height: 1em;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.tres .card-js .content3 .desc-js {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.tres .card-react {
+  top: -15rem;
+  left: 54rem;
+  position: relative;
+  width: 19rem;
+  height: 15rem;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-react .circle4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tres .card-react .circle4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  clip-path: circle(3.5rem at center);
+  transition: all 0.5s ease-in-out;
+}
+
+.tres .card-react:hover .circle4:before {
+  background: linear-gradient(to right, #c9d1d9, #00131a);
+  clip-path: circle(25rem at center);
+}
+
+.tres .card-react .img-react {
+  position: absolute;
+  top: 20%;
+  left: 26.5%;
+  transform: translate(-50%, -50%);
+  height: 4.5rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(0 0 1em #c9d1d9);
+  animation: girar 24s linear infinite;
+}
+
+@keyframes girar {
+  0% {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(50%, 50%) rotate(-360deg);
+  }
+}
+
+.tres .card-react:hover .img-react {
+  top: 25%;
+  left: 60%;
+  height: 4rem;
+}
+
+.tres .card-react .content4 {
+  position: relative;
+  width: 70%;
+  left: 5%;
+  padding: 1rem 1rem 1rem 1rem;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tres .card-react:hover .content4 {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.tres .card-react .content4 .t-react {
+  font-size: 1.3rem;
+  line-height: 1em;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.tres .card-react .content4 .desc-react {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.quatro {
+  width: 100vw;
+  height: 110vh;
+}
+
+.quatro .servicos {
+  top: 173rem;
+  left: 38.7rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+.quatro .servicos:hover {
+  color: #fff;
+}
+
+.quatro .start {
   font-size: 2rem;
-  top: 156rem;
+  top: 204rem;
   right: 1rem;
   cursor: pointer;
   position: absolute;
   transition: all 300ms ease-in-out;
 }
 
-.tres .total {
+.quatro .total {
   position: absolute;
-  top: 160rem;
+  top: 208rem;
   right: 4rem;
 }
 
-.tres .counter {
+.quatro .counter {
   position: absolute;
-  top: 160rem;
+  top: 208rem;
   right: 1rem;
 }
 
-.tres .start:hover {
+.quatro .start:hover {
   transform: scale(1.1);
 }
 
