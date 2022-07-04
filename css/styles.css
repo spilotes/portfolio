@@ -1123,7 +1123,6 @@ body {
 .quatro .servicos {
   top: 173rem;
   left: 38.7rem;
-  cursor: pointer;
   font-size: 1.4rem;
   color: #c9d1d9;
   position: absolute;
@@ -1132,6 +1131,13 @@ body {
 
 .quatro .servicos:hover {
   color: #fff;
+}
+
+.quatro .building {
+  position: absolute;
+  font-size: 0.9rem;
+  top: 176rem;
+  left: 38.7rem;
 }
 
 .quatro .start {
