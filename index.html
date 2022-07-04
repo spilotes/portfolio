@@ -2,372 +2,152 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Ricardo Magalhães" />
+    <meta
+      name="description"
+      content="Meu nome é Ricardo, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
+    />
+    <meta
+      name="keywords"
+      content="sites, site, web, desenvolvimento, frontend, spilotes, programador, ui designer, ricardo, front-end, designer, ui, freelancer, freela, website, portfólio"
+    />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="copyright" content="spilotes 2022" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" type="imagex/png" href="./img/logoA.ico">
+    <title>home</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
-    <link rel="shortcut icon" type="imagex/png" href="./img/logoA.ico" />
-
     <script
-      src="https://kit.fontawesome.com/81046c0766.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>spilotes</title>
+        src="https://kit.fontawesome.com/81046c0766.js"
+        crossorigin="anonymous"
+      ></script>
   </head>
 
-  <header class="cabecalho cabecalho--fixo">
-    <div>
-      <a href="https://spilotes.github.io/home/" target="_blank">
-        <img class="logo" src="./img/logo.png" alt="spilotes"
-      /></a>
-    </div>
-
-    <div>
-      <input type="checkbox" id="check" />
-      <label for="check">
-        <img class="menu" src="./img/menu.png" />
-      </label>
-      <nav>
-        <h3 class="correio">📬</h3>
-        <ul>
-          <li>
-            <a class="a" href="https://wa.me/5551983385777?" target="_blank"
-              ><i class="fab fa-brands fa-whatsapp-square whatsapp"></i
-            ></a>
-          </li>
-          <li>
-            <a class="a" href="https://github.com/spilotes" target="_blank"
-              ><i class="fab fa-brands fa-github-square github"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="a"
-              href="https://www.linkedin.com/in/ricardowebdev/"
-              target="_blank"
-              ><i class="fab fa-linkedin linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a class="a" href="https://t.me/ricardospilotes" target="_blank"
-              ><i class="fab fa-brands fa-telegram telegram"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="a"
-              href="https://www.instagram.com/bakunin.provo/"
-              target="_blank"
-              ><i class="fab fa-brands fa-instagram-square instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a class="a" href="https://codepen.io/Spilotes" target="_blank"
-              ><i class="fab fa-brands fa-codepen codepen"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="a"
-              href="https://www.facebook.com/ricardo.spilotes/"
-              target="_blank"
-              ><i class="fab fa-brands fa-facebook-square facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="a"
-              href="https://www.youtube.com/channel/UCh7zmANYmClfM3hKHyDdiDA"
-              target="_blank"
-              ><i class="fab fa-brands fa-youtube youtube"></i
-            ></a>
-          </li>
-          <li>
-            <a class="a" href="https://www.twitch.tv/spilotes1" target="_blank"
-              ><i class="fab fa-brands fa-twitch twitch"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="a"
-              href="https://open.spotify.com/user/k8xqrgqgsmmezmm05786aoxdo?si=i9jhIoIQR_yaaq1S7iRX1g&utm_source=copy-link"
-              target="_blank"
-              ><i class="fab fa-brands fa-spotify spotify"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
   <body>
-    <section class="um">
-      <div>
-        <h1 id="dia"></h1>
-      </div>
+    <main>
+        <section id="s-home">
+          <div>
+            <h1 id="dia"></h1>
+            </div>
+              <div class="saudacao">
+                <script language="JavaScript">
+                  now = new Date();
+                  if (now.getHours() >= 0 && now.getHours() < 5) {
+                    document.write("boa madrugada, visitante.🤘🏼");
+                  } else if (now.getHours() >= 5 && now.getHours() < 12) {
+                    document.write("bom dia, visitante.🤘🏼");
+                  } else if (now.getHours() >= 12 && now.getHours() < 18) {
+                    document.write("boa tarde, visitante.🤘🏼");
+                  } else {
+                    document.write("boa noite, visitante.🤘🏼");
+                  }
+                </script>
+              </div>
+              
+            <div>
+                <figure>
+                    <img class="yo" src="./img/yo2.png" alt="Ricardo Spilotes">
+                </figure>
+                <figure>
+                  <img class="css" src="./img/css.png" alt="CSS" />
+                </figure>
+                <figure>
+                  <img class="react" src="./img/react.png" alt="React" />
+                </figure>
+                <figure>
+                  <img class="js" src="./img/js.png" alt="JavaScript" />
+                </figure>
+            </div>
+                <div>
+                  <h3 class="h3">Ricardo Magalhães</h3>
+                  <span class="apelido">spilotes</span>
+          
+                  <span class="webdev">🖥️ Web Developer</span>
+                  <a
+                    href="https://www.google.com.br/maps/place/Florian%C3%B3polis,+SC/@-27.5707056,-48.7504673,10z/data=!4m5!3m4!1s0x9527394eb2c632d7:0x81bc550b6a04c746!8m2!3d-27.5948036!4d-48.5569286?hl=pt-PT&authuser=0"
+                    target="_blank"
+                    ><span class="local">📍 Florianópolis, Brasil.</span></a
+                  >
+                  <a href="mailto:ricardospilotes@gmail.com" class="email"
+                    >✉️ ricardospilotes@gmail.com</a
+                  >
+                </div>
 
-      <div class="saudacao">
-        <script language="JavaScript">
-          now = new Date();
-          if (now.getHours() >= 0 && now.getHours() < 5) {
-            document.write("boa madrugada, visitante.🤘🏼");
-          } else if (now.getHours() >= 5 && now.getHours() < 12) {
-            document.write("bom dia, visitante.🤘🏼");
-          } else if (now.getHours() >= 12 && now.getHours() < 18) {
-            document.write("boa tarde, visitante.🤘🏼");
-          } else {
-            document.write("boa noite, visitante.🤘🏼");
-          }
-        </script>
-      </div>
+                <div>
+                  <h3 class="port">Portfólio📑</h3>
+                  <a href="https://spilotes.github.io/portfolio/" target="_blank">
+                  <img class="portfolio" src="./img/logo.png" alt="spilotes"></a>
+                </div>
+            
+                <div>
+                  <h3 class="links">Links sociais🔗</h3>
+                
+            <div class="links-container">
+                <aside>
+                    <a href="https://t.me/ricardospilotes" target="_blank"
+                    ><i class="fab fa-brands fa-telegram telegram"></i></a>
+                    <a href="https://wa.me/5551983385777?" target="_blank"
+                        ><i class="fab fa-brands fa-whatsapp-square whatsapp"></i></a>
+                    <a href="https://github.com/spilotes" target="_blank"
+                        ><i class="fab fa-brands fa-github-square github"></i></a>
+                    <a href="https://www.linkedin.com/in/ricardowebdev/" target="_blank"
+                        ><i class="fab fa-linkedin linkedin"></i></a>
+                    <a href="https://www.instagram.com/bakunin.provo/" target="_blank"
+                        ><i class="fab fa-brands fa-instagram-square instagram"></i></a>
+                    <a href="https://codepen.io/Spilotes" target="_blank"
+                        ><i class="fab fa-brands fa-codepen codepen"></i></a>
+                    <a href="https://www.facebook.com/ricardo.spilotes/" target="_blank"
+                        ><i class="fab fa-brands fa-facebook-square facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCh7zmANYmClfM3hKHyDdiDA" target="_blank"
+                        ><i class="fab fa-brands fa-youtube youtube"></i></a>
+                    <a href="https://www.twitch.tv/spilotes1" target="_blank"
+                        ><i class="fab fa-brands fa-twitch twitch"></i></a>
+                    <a href="https://open.spotify.com/user/k8xqrgqgsmmezmm05786aoxdo?si=i9jhIoIQR_yaaq1S7iRX1g&utm_source=copy-link" target="_blank"
+                    ><i class="fab fa-brands fa-spotify spotify"></i></a>    
+                </aside>
+            </div>
+          </div>
 
-      <div>
-        <figure>
-          <img class="yo" src="./img/yo2.png" alt="Ricardo Magalhães" />
-        </figure>
-        <figure>
-          <img class="css" src="./img/css.png" alt="CSS" />
-        </figure>
-        <figure>
-          <img class="react" src="./img/react.png" alt="React" />
-        </figure>
-        <figure>
-          <img class="js" src="./img/js.png" alt="JavaScript" />
-        </figure>
-      </div>
+          <div>
+            <span class="s-bat"
+              >Conteúdos sobre programação, codificação, dicas e truques em:</span
+            >
+            <a href="https://www.instagram.com/baby_bat_codes/" target="_blank"
+              ><img class="bat" src="./img/baby_bat.png" alt="Baby Bat Codes"
+            /></a>
+            <a href="https://www.instagram.com/baby_bat_codes/" target="_blank"
+              ><span class="n-bat">Baby Bat Codes</span></a
+            >
+          </div>
 
-      <div>
-        <h3 class="h3">Ricardo Magalhães</h3>
-        <span class="apelido">spilotes</span>
+          <div>
+            <h3 class="dicas">Dicas de leitura📓</h3>>
+            <a href="https://espertirina.wordpress.com/livros-anarquistas-em-pdf/" target="_blank"
+              ><img class="leitura" src="./img/leitura.png" alt="Esperitina Baderneira"
+            /></a>
+          </div>
 
-        <span class="webdev">🖥️ Web Developer</span>
-        <a
-          href="https://www.google.com.br/maps/place/Florian%C3%B3polis,+SC/@-27.5707056,-48.7504673,10z/data=!4m5!3m4!1s0x9527394eb2c632d7:0x81bc550b6a04c746!8m2!3d-27.5948036!4d-48.5569286?hl=pt-PT&authuser=0"
-          target="_blank"
-          ><span class="local">📍 Florianópolis, Brasil.</span></a
-        >
-        <a href="mailto:ricardospilotes@gmail.com" class="email"
-          >✉️ ricardospilotes@gmail.com</a
-        >
-      </div>
-    </section>
+          <div>
+            <span class="total">Total de visitas:</span>
+            <a href='https://www.counter12.com'>
+              <img class="counter" src='https://www.counter12.com/img-3dWZ8YA1bBa9BAaZ-6.gif' border='0' alt='counter'></a>
+              <script type='text/javascript' src='https://www.counter12.com/ad.js?id=3dWZ8YA1bBa9BAaZ'></script>
+            </div>
+            <div>
+              <a href="https://komarev.com/ghpvc/?username=spilotes"></a>
+            </div>
 
-    <section class="dois">
-      <h3 class="title">Bem-vindo ao meu portfólio.😌</h3>
-      <span class="desc">
-        Tenho 34 anos e sou freelancer como <i>Front-End developer</i> com foco
-        no desenvolvimento web.<br />
-        Crio interfaces modernas e de alta qualidade concentrado em performance,
-        animações,<br />
-        responsividade e SEO.<br /><br />
+        </section>
 
-        Atualmente, em meio a uma transição de carreira, busco aperfeiçoar
-        conhecimentos nas <i>stacks</i><br />do HTML, CSS, JavaScript, React,
-        Git e GitHub.<br />Gosto e faço questão de aprender coisas novas.
-        Aprendi muito em 2 anos estudando<br />
-        programação e aprenderei ainda mais como: Typescript, Vue.js, Next.js e
-        Angular.js.<br /><br />
-
-        Curioso, paciente e questionador tento e vou ajudar na construção de um
-        mundo mais justo.
-      </span>
-
-      <h3 class="projetos">Projetos pessoais.🗂️</h3>
-
-      <div class="card-container">
-        <a
-          class="card1"
-          href="https://spilotes.github.io/noteapp/"
-          target="_blank"
-        >
-          <img class="img1" src="./img/home1.jpeg" alt="Note app" />
-          <span class="text1">Note app</span>
-        </a>
-
-        <a
-          class="card2"
-          href="https://spilotes.github.io/weather/"
-          target="_blank"
-        >
-          <img class="img2" src="./img/home2.jpeg" alt="Weather" />
-          <span class="text2">Weather</span>
-        </a>
-
-        <a
-          class="card3"
-          href="https://spilotes.github.io/gallery/"
-          target="_blank"
-        >
-          <img class="img3" src="./img/home3.jpeg" alt="May Dump" />
-          <span class="text3">Galeria de fotos</span>
-        </a>
-
-        <a
-          class="card4"
-          href="https://spilotes.github.io/geolocation/"
-          target="_blank"
-        >
-          <img class="img4" src="./img/home4.jpeg" alt="Geolocation" />
-          <span class="text4">Geolocalizador</span>
-        </a>
-
-        <a
-          class="card5"
-          href="https://spilotes.github.io/calculator/"
-          target="_blank"
-        >
-          <img class="img5" src="./img/home5.jpeg" alt="Calculadora" />
-          <span class="text5">Calculadora</span>
-        </a>
-
-        <a
-          class="card6"
-          href="https://spilotes.github.io/stopwatch/"
-          target="_blank"
-        >
-          <img class="img6" src="./img/home6.jpeg" alt="Cronômetro" />
-          <span class="text6">Cronômetro</span>
-        </a>
-
-        <a
-          class="card7"
-          href="https://spilotes.github.io/completeform/"
-          target="_blank"
-        >
-          <img class="img7" src="./img/home7.jpeg" alt="Formulário" />
-          <span class="text7">Validador Form. </span>
-        </a>
-
-        <a
-          class="card8"
-          href="https://spilotes.github.io/home/"
-          target="_blank"
-        >
-          <img class="img8" src="./img/home8.jpeg" alt="Home" />
-          <span class="text8">Home</span>
-        </a>
-      </div>
-
-      <div>
-        <span class="t-github">Esses e outros repositórios no:</span>
-        <a href="https://github.com/spilotes" target="_blank>"
-          ><img class="github" src="./img/github.png" alt="GitHub"
-        /></a>
-
-        <span class="s-github"
-          ><a href="https://github.com/spilotes" target="_blank>"
-            >GitHub</a
-          ></span
-        >
-      </div>
-
-      <div>
-        <span class="s-bat"
-          >Acompanhe meus conteúdos sobre programação, codificação, dicas e
-          truques em:</span
-        >
-        <a href="https://www.instagram.com/baby_bat_codes/" target="_blank"
-          ><img class="bat" src="./img/baby_bat.png" alt="Baby Bat Codes"
-        /></a>
-        <a href="https://www.instagram.com/baby_bat_codes/" target="_blank"
-          ><span class="n-bat">Baby Bat Codes</span></a
-        >
-      </div>
-    </section>
-
-    <section class="tres">
-      <h3 class="conhecimentos">Conhecimentos.🧠</h3>
-      <span class="obs"
-        ><i>passe o mouse/clique sobre a stack para obter informações*</i></span
-      >
-      <div class="card-html">
-        <div class="circle1"></div>
-        <div class="content1">
-          <h4 class="t-html">HTML</h4>
-          <span class="desc-html"
-            >É uma linguagem baseada em marcação, onde marcamos os elementos
-            para definir quais informações a página vai exibir.</span
-          >
-        </div>
-        <figure>
-          <img class="img-html" src="./img/html.png" alt="HTML" />
-        </figure>
-      </div>
-
-      <div class="card-css">
-        <div class="circle2"></div>
-        <div class="content2">
-          <h4 class="t-css">CSS</h4>
-          <span class="desc-css"
-            >É uma linguagem de folha de estilo composta por "camadas", criado
-            com o propósito de estilizar as páginas HTML.</span
-          >
-        </div>
-        <figure>
-          <img class="img-css" src="./img/css.png" alt="CSS" />
-        </figure>
-      </div>
-
-      <div class="card-js">
-        <div class="circle3"></div>
-        <div class="content3">
-          <h4 class="t-js">JavaScript</h4>
-          <span class="desc-js"
-            >É uma linguagem de programação interpretada estruturada, de script
-            em alto nível com tipagem dinâmica fraca e multiparadigma.</span
-          >
-        </div>
-        <figure>
-          <img class="img-js" src="./img/js.png" alt="JavaScript" />
-        </figure>
-      </div>
-
-      <div class="card-react">
-        <div class="circle4"></div>
-        <div class="content4">
-          <h4 class="t-react">ReactJS</h4>
-          <span class="desc-react"
-            >É uma biblioteca JavaScript de código aberto com o foco em criar
-            interfaces de usuário em páginas Web.</span
-          >
-        </div>
-        <figure>
-          <img class="img-react" src="./img/react.png" alt="ReactJS" />
-        </figure>
-      </div>
-    </section>
-
-    <section class="quatro">
-      <h3 class="servicos">Serviços.🛰️</h3>
-      <span class="building"><i>em construção*</i></span>
-      <div>
-        <h1 onclick="start()" class="start">☝🏼</h1>
-      </div>
-
-      <div>
-        <span class="total">Total de visitas:</span>
-        <a href="https://www.counter12.com"
-          ><img
-            class="counter"
-            src="https://www.counter12.com/img-3dWZ8YA1bBa9BAaZ-6.gif"
-            border="0"
-            alt="counter"
-        /></a>
-        <script
-          type="text/javascript"
-          src="https://www.counter12.com/ad.js?id=3dWZ8YA1bBa9BAaZ"
-        ></script>
-      </div>
-    </section>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script src="./js/header.js"></script>
-    <script src="./js/dia.js"></script>
-    <script src="./js/stacks.js"></script>
-    <script src="./js/typewriter.js"></script>
-    <script src="./js/scrollreveal.js"></script>
-    <script src="./js/scrolltop.js"></script>
-  </body>
-</html>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="./js/dia.js"></script>
+      <script src="./js/typewriter.js"></script>
+      <script src="./js/logo.js"></script>
+      <script src="./js/stacks.js"></script>
+      <script src="./js/scrollreveal.js" defer></script>
+    </body>
+  </html>

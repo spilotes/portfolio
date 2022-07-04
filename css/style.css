@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#030008),
+    to(#00131a)
+  );
+  overflow-x: hidden;
+}
+
+#s-home {
+  width: 100%;
+  height: 250vh;
+}
+
+#dia {
+  font-size: 2.2rem;
+  font-weight: 500;
+  top: 2rem;
+  left: 9rem;
+  color: #6b727c;
+  cursor: pointer;
+  position: absolute;
+}
+
+.saudacao {
+  font-size: 1.2rem;
+  color: #c9d1d9;
+  top: 4.3rem;
+  left: 9rem;
+  cursor: pointer;
+  position: absolute;
+  visibility: hidden;
+}
+
+main #s-home {
+  display: grid;
+  grid-template-columns: repeat(1, 8rem);
+  grid-template-rows: minmax(4rem, auto) repeat(2, 2rem);
+}
+
+.yo {
+  width: 14.5rem;
+  top: 5rem;
+  left: 41%;
+  position: absolute;
+  border-radius: 7.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.yo:hover {
+  transform: scale(1.02);
+}
+
+.css {
+  width: 4rem;
+  top: 5rem;
+  left: 34rem;
+  position: absolute;
+}
+
+.react {
+  width: 4.5rem;
+  top: 6.5rem;
+  left: 46rem;
+  position: absolute;
+  animation: girar 24s linear infinite;
+}
+
+@keyframes girar {
+  0% {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(50%, 50%) rotate(-360deg);
+  }
+}
+
+.js {
+  width: 3.5rem;
+  top: 18rem;
+  left: 36rem;
+  position: absolute;
+}
+
+#s-home .h3 {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  top: 23.5rem;
+  left: 35.5rem;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+#s-home .h3:hover {
+  color: #fff;
+}
+
+#s-home .h3::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 0.3rem;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+#s-home .apelido {
+  top: 25.1rem;
+  left: 35.5rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #6b727c;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+#s-home .apelido:hover {
+  color: #c9d1d9;
+}
+
+#s-home .webdev {
+  top: 28.5rem;
+  left: 35.5rem;
+  color: #c9d1d9;
+  position: absolute;
+}
+
+#s-home .local {
+  top: 30rem;
+  left: 35.8rem;
+  cursor: pointer;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+#s-home .local:hover {
+  color: #fff;
+}
+
+#s-home .email {
+  top: 31.5rem;
+  left: 35.5rem;
+  color: #c9d1d9;
+  text-decoration: none;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+#s-home .email:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#s-home .port {
+  position: absolute;
+  top: 38rem;
+  left: 39.7rem;
+  color: #c9d1d9;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#s-home .portfolio {
+  position: absolute;
+  width: 12rem;
+  top: 41rem;
+  left: 39.7rem;
+}
+
+#s-home .links {
+  position: absolute;
+  top: 48rem;
+  left: 38.3rem;
+  color: #c9d1d9;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#s-home .links-container {
+  display: flex;
+  left: 23rem;
+  flex-direction: column;
+  top: 51rem;
+  position: absolute;
+  visibility: hidden;
+}
+
+#s-home .links-container aside {
+  display: flex;
+}
+
+#s-home .links-container aside a {
+  text-decoration: none;
+}
+
+#s-home .links-container aside i {
+  width: 3.1rem;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.7rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#s-home .links-container aside .telegram {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .telegram:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .whatsapp {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .whatsapp:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .github {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .github:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .linkedin {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .linkedin:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .instagram {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .instagram:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .codepen {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .codepen:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .facebook {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .facebook:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .youtube {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .youtube:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .twitch {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .twitch:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .spotify {
+  color: #6b727c;
+}
+
+#s-home .links-container aside .spotify:hover {
+  transform: scale(1.05);
+}
+
+#s-home .s-bat {
+  position: absolute;
+  top: 60rem;
+  left: 28rem;
+  color: #c9d1d9;
+}
+
+#s-home .bat {
+  position: absolute;
+  top: 64rem;
+  left: 37.5rem;
+  width: 10rem;
+  padding: 0.2rem 0.2rem;
+  border: 2px solid #c9d1d9;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+  visibility: hidden;
+}
+
+#s-home .bat:hover {
+  transform: scale(1.02);
+}
+
+#s-home .n-bat {
+  position: absolute;
+  color: #c9d1d9;
+  top: 74rem;
+  left: 38.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 300ms ease-in-out;
+  visibility: hidden;
+}
+
+#s-home .n-bat:hover {
+  color: #fff;
+}
+
+#s-home .dicas {
+  position: absolute;
+  top: 80rem;
+  left: 37.6rem;
+  color: #c9d1d9;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#s-home .leitura {
+  position: absolute;
+  width: 23rem;
+  top: 85rem;
+  left: 31rem;
+  border: 2px solid #c9d1d9;
+  transition: all 300ms ease-in-out;
+  visibility: hidden;
+}
+
+#s-home .leitura:hover {
+  transform: scale(1.01);
+}
+
+#s-home .total {
+  position: absolute;
+  top: 101rem;
+  right: 4rem;
+  color: #c9d1d9;
+}
+
+#s-home .counter {
+  position: absolute;
+  top: 101rem;
+  right: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
+}
