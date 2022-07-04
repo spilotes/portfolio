@@ -191,7 +191,7 @@
   }
 
   .tres .conhecimentos {
-    top: 164rem;
+    top: 163.8rem;
     left: 7.5rem;
   }
 
@@ -201,36 +201,36 @@
   }
 
   .tres .card-css {
-    top: -12rem;
+    top: 1rem;
     left: 3.5rem;
   }
 
   .tres .card-js {
-    top: -17rem;
+    top: 1rem;
     left: 3.5rem;
   }
 
   .tres .card-react {
-    top: -22rem;
+    top: 1rem;
     left: 3.5rem;
   }
 
   .quatro .servicos {
     top: 200rem;
-    left: 9rem;
+    left: 9.2rem;
   }
 
   .quatro .start {
-    top: 197rem;
+    top: 218rem;
   }
 
   .quatro .total {
     position: absolute;
-    top: 201rem;
+    top: 222rem;
   }
 
   .quatro .counter {
-    top: 201rem;
+    top: 222rem;
     right: 1rem;
   }
 }
