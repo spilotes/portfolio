@@ -46,7 +46,7 @@ ScrollReveal().reveal(".card8", {
   duration: 3000,
 });
 
-ScrollReveal().reveal(".github", {
+ScrollReveal().reveal(".img-github", {
   duration: 3000,
 });
 
