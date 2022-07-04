@@ -190,16 +190,30 @@
     left: 9.2rem;
   }
 
-  .tres .start {
+  .tres .conhecimentos {
+    top: 161rem;
+    left: 7rem;
+  }
+
+  .tres .card-html {
+    top: 164rem;
+    left: 4rem;
+  }
+
+  .tres .card-css {
+    top: 164rem;
+    left: 9rem;
+
+  .quatro .start {
     top: 197rem;
   }
 
-  .tres .total {
+  .quatro .total {
     position: absolute;
     top: 201rem;
   }
 
-  .tres .counter {
+  .quatro .counter {
     top: 201rem;
     right: 1rem;
   }
