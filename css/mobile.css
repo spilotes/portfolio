@@ -196,17 +196,17 @@
   }
 
   .tres .card-html {
-    top: 12rem;
+    top: 14rem;
     left: 3.5rem;
   }
 
   .tres .card-css {
-    top: 1rem;
+    top: 7rem;
     left: 3.5rem;
   }
 
   .tres .card-js {
-    top: 1rem;
+    top: 3rem;
     left: 3.5rem;
   }
 
@@ -216,21 +216,21 @@
   }
 
   .quatro .servicos {
-    top: 200rem;
+    top: 210rem;
     left: 9.2rem;
   }
 
   .quatro .start {
-    top: 218rem;
+    top: 226rem;
   }
 
   .quatro .total {
     position: absolute;
-    top: 222rem;
+    top: 230rem;
   }
 
   .quatro .counter {
-    top: 222rem;
+    top: 230rem;
     right: 1rem;
   }
 }
