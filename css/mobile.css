@@ -196,28 +196,28 @@
   }
 
   .tres .card-html {
-    top: 10rem;
-    left: 3rem;
+    top: 12rem;
+    left: 3.5rem;
   }
 
   .tres .card-css {
-    top: -5rem;
-    left: 3rem;
+    top: -12rem;
+    left: 3.5rem;
   }
 
   .tres .card-js {
-    top: -8rem;
-    left: 1rem;
+    top: -17rem;
+    left: 3.5rem;
   }
 
   .tres .card-react {
-    top: -12rem;
-    left: 8rem;
+    top: -22rem;
+    left: 3.5rem;
   }
 
   .quatro .servicos {
-    top: 180rem;
-    left: 7rem;
+    top: 200rem;
+    left: 9rem;
   }
 
   .quatro .start {
