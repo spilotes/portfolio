@@ -222,7 +222,7 @@
 
   .quatro {
     width: 100vw;
-    height: 130vh;
+    height: 140vh;
   }
 
   .quatro .servicos {
@@ -249,35 +249,36 @@
   }
 
   .quatro .start {
-    top: 259rem;
+    top: 269rem;
+    left: 18rem;
   }
 
   .quatro .total {
     position: absolute;
-    top: 264rem;
+    top: 272rem;
   }
 
   .quatro .counter {
-    top: 264rem;
+    top: 272rem;
     right: 1rem;
   }
 
   .quatro footer {
-    top: 277rem;
+    top: 280rem;
   }
 
   .quatro .copy {
-    top: 70rem;
+    top: 0;
     left: 1rem;
   }
 
   .quatro footer span {
-    top: 70rem;
-    left: 5rem;
+    top: 0;
+    left: 12rem;
   }
 
   .quatro footer .logo-footer {
-    top: 70rem;
-    left: 8rem;
+    top: 0;
+    left: 18rem;
   }
 }
