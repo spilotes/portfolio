@@ -230,9 +230,14 @@
     left: 9.2rem;
   }
 
-  .quatro .building {
-    top: 227rem;
-    left: 9.2rem;
+  .quatro .design-card {
+    top: 228rem;
+    left: 2rem;
+  }
+
+  .quatro .webdev-card {
+    top: 248rem;
+    left: 2rem;
   }
 
   .quatro .start {
@@ -253,7 +258,7 @@
     top: 267rem;
   }
 
-  .quatro footer .copy {
+  .quatro .copy {
     top: 270rem;
     left: 1rem;
   }
