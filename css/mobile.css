@@ -259,11 +259,12 @@
   }
 
   .quatro footer span {
-top: 270rem;
-right: 10rem;
+    top: 270rem;
+    right: 10rem;
   }
 
-  .quatro footer .logo-footer{
+  .quatro footer .logo-footer {
     top: 270rem;
     right: 1rem;
+  }
 }
