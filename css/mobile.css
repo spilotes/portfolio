@@ -222,7 +222,7 @@
 
   .quatro {
     width: 100vw;
-    height: 140vh;
+    height: 150vh;
   }
 
   .quatro .servicos {
@@ -232,7 +232,7 @@
 
   .quatro .design-card {
     top: 230rem;
-    left: 3rem;
+    left: 2.9rem;
   }
 
   .quatro .design-card h4 {
@@ -241,7 +241,7 @@
 
   .quatro .webdev-card {
     top: 252rem;
-    left: 3rem;
+    left: 2.9rem;
   }
 
   .quatro .webdev-card h4 {
@@ -249,36 +249,36 @@
   }
 
   .quatro .start {
-    top: 269rem;
+    top: 273rem;
     left: 18rem;
   }
 
   .quatro .total {
     position: absolute;
-    top: 272rem;
+    top: 276rem;
   }
 
   .quatro .counter {
-    top: 272rem;
+    top: 276rem;
     right: 1rem;
   }
 
   .quatro footer {
-    top: 280rem;
+    top: 285rem;
   }
 
   .quatro .copy {
-    top: 0;
+    top: 3rem;
     left: 1rem;
   }
 
   .quatro footer span {
-    top: 0;
+    top: 3rem;
     left: 12rem;
   }
 
   .quatro footer .logo-footer {
-    top: 0;
+    top: 3rem;
     left: 18rem;
   }
 }
