@@ -231,13 +231,21 @@
   }
 
   .quatro .design-card {
-    top: 228rem;
-    left: 2rem;
+    top: 230rem;
+    left: 3rem;
+  }
+
+  .quatro .design-card h4 {
+    font-weight: 400;
   }
 
   .quatro .webdev-card {
-    top: 248rem;
-    left: 2rem;
+    top: 252rem;
+    left: 3rem;
+  }
+
+  .quatro .webdev-card h4 {
+    font-weight: 400;
   }
 
   .quatro .start {
@@ -255,21 +263,21 @@
   }
 
   .quatro footer {
-    top: 267rem;
+    top: 277rem;
   }
 
   .quatro .copy {
-    top: 270rem;
+    top: 70rem;
     left: 1rem;
   }
 
   .quatro footer span {
-    top: 270rem;
-    right: 10rem;
+    top: 70rem;
+    left: 5rem;
   }
 
   .quatro footer .logo-footer {
-    top: 270rem;
-    right: 1rem;
+    top: 70rem;
+    left: 8rem;
   }
 }
