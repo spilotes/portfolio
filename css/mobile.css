@@ -263,21 +263,21 @@
     right: 1rem;
   }
 
-  .quatro footer {
+  footer {
     top: 285rem;
   }
 
-  .quatro .copy {
+  footer .copy {
     top: 3rem;
     left: 1rem;
   }
 
-  .quatro footer span {
+  footer span {
     top: 3rem;
     left: 12rem;
   }
 
-  .quatro footer .logo-footer {
+  footer .logo-footer {
     top: 3rem;
     left: 18rem;
   }

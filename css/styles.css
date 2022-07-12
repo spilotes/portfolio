@@ -1234,33 +1234,33 @@ body {
   transform: scale(1.1);
 }
 
-.quatro footer {
+footer {
   position: absolute;
   top: 217rem;
   width: 100vw;
   height: 6rem;
-  background-color: #000000;
+  background-color: transparent;
   border-top: 1px solid #1c1c1c;
 }
 
-.quatro .copy {
+footer .copy {
   position: absolute;
   bottom: 1rem;
   left: 9rem;
 }
 
-.quatro footer span {
+footer span {
   position: absolute;
   bottom: 1.2rem;
-  left: 63.7rem;
+  left: 63.4rem;
   width: 100%;
 }
 
-.quatro footer .logo-footer {
+footer .logo-footer {
   position: absolute;
   width: 7rem;
   bottom: 1rem;
-  right: 9rem;
+  right: 9.5rem;
 }
 
 ::-webkit-scrollbar {
