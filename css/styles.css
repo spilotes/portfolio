@@ -1171,6 +1171,44 @@ body {
   line-height: 2rem;
 }
 
+.quatro .webdev-card {
+  width: 20rem;
+  height: 20rem;
+  top: 180rem;
+  left: 43.5rem;
+  position: absolute;
+  background-color: #000000;
+  border: 1px solid #000000;
+  transition: all 1s ease-in-out;
+}
+
+.quatro .webdev-card:hover {
+  border: 1px solid #c9d1d9;
+}
+
+.quatro .webdev-card .webdev-img {
+  width: 4rem;
+  top: 1rem;
+  left: 1rem;
+  position: absolute;
+}
+
+.quatro .webdev-card h4 {
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.quatro .webdev-card .span-dev {
+  position: absolute;
+  top: 12rem;
+  left: 1rem;
+  line-height: 2rem;
+}
+
 .quatro .start {
   font-size: 2rem;
   top: 209rem;
