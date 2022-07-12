@@ -205,22 +205,22 @@
   }
 
   .tres .card-html {
-    top: 12rem;
-    left: 3.4rem;
-  }
-
-  .tres .card-css {
     top: 9rem;
     left: 3.4rem;
   }
 
-  .tres .card-js {
+  .tres .card-css {
     top: 6rem;
     left: 3.4rem;
   }
 
-  .tres .card-react {
+  .tres .card-js {
     top: 3rem;
+    left: 3.4rem;
+  }
+
+  .tres .card-react {
+    top: 0;
     left: 3.4rem;
   }
 
