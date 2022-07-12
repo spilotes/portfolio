@@ -247,18 +247,22 @@
     font-weight: 400;
   }
 
+  .quatro .webdev-card span {
+    margin-right: 1rem;
+  }
+
   .quatro .start {
-    top: 277rem;
+    top: 279rem;
     right: 1rem;
   }
 
   .quatro .total {
-    top: 280rem;
+    top: 283rem;
     right: 3rem;
   }
 
   .quatro .counter {
-    top: 280rem;
+    top: 283rem;
     right: 1rem;
   }
 
