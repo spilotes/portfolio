@@ -273,4 +273,23 @@
     top: 281rem;
     right: 1rem;
   }
+
+  footer {
+    top: 285rem;
+  }
+
+  footer .copy {
+    top: 3rem;
+    left: 1rem;
+  }
+
+  footer span {
+    top: 3rem;
+    left: 12rem;
+  }
+
+  footer .logo-footer {
+    top: 3rem;
+    left: 18rem;
+  }
 }

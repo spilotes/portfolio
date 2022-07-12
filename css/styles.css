@@ -1117,7 +1117,7 @@ body {
 
 .quatro {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
 
 .quatro .servicos {
@@ -1136,7 +1136,7 @@ body {
 .quatro .design-card {
   width: 20rem;
   height: 20rem;
-  top: 180rem;
+  top: 181rem;
   left: 22.5rem;
   position: absolute;
   background-color: #000000;
@@ -1174,7 +1174,7 @@ body {
 .quatro .webdev-card {
   width: 20rem;
   height: 20rem;
-  top: 180rem;
+  top: 181rem;
   left: 43.5rem;
   position: absolute;
   background-color: #000000;
@@ -1211,7 +1211,7 @@ body {
 
 .quatro .start {
   font-size: 2rem;
-  top: 203rem;
+  top: 204rem;
   right: 9rem;
   cursor: pointer;
   position: absolute;
@@ -1220,14 +1220,43 @@ body {
 
 .quatro .total {
   position: absolute;
-  top: 207rem;
+  top: 208rem;
   right: 12rem;
 }
 
 .quatro .counter {
   position: absolute;
-  top: 207rem;
+  top: 208rem;
   right: 9rem;
+}
+
+footer {
+  position: absolute;
+  top: 217rem;
+  width: 100vw;
+  height: 6rem;
+  background-color: transparent;
+  border-top: 1px solid #1c1c1c;
+}
+
+footer .copy {
+  position: absolute;
+  bottom: 1rem;
+  left: 9rem;
+}
+
+footer span {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 63.4rem;
+  width: 100%;
+}
+
+footer .logo-footer {
+  position: absolute;
+  width: 7rem;
+  bottom: 1rem;
+  right: 9.5rem;
 }
 
 .quatro .start:hover {
