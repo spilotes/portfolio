@@ -265,7 +265,7 @@ body {
 }
 
 .dois {
-  height: 200vh;
+  height: 255vh;
   width: 100vw;
 }
 
@@ -740,7 +740,7 @@ body {
 
 .tres {
   width: 100vw;
-  height: 100vh;
+  height: 65vh;
 }
 
 .tres .conhecimentos {
@@ -771,7 +771,7 @@ body {
 }
 
 .tres .card-html {
-  top: 30rem;
+  top: 8rem;
   left: 12rem;
   position: relative;
   width: 19rem;
@@ -855,7 +855,7 @@ body {
 }
 
 .tres .card-css {
-  top: 15rem;
+  top: -7rem;
   left: 26rem;
   position: relative;
   width: 19rem;
@@ -939,7 +939,7 @@ body {
 }
 
 .tres .card-js {
-  top: 0;
+  top: -22rem;
   left: 40rem;
   position: relative;
   width: 19rem;
@@ -1022,7 +1022,7 @@ body {
 }
 
 .tres .card-react {
-  top: -15rem;
+  top: -37rem;
   left: 54rem;
   position: relative;
   width: 19rem;
@@ -1117,11 +1117,11 @@ body {
 
 .quatro {
   width: 100vw;
-  height: 130vh;
+  height: 100vh;
 }
 
 .quatro .servicos {
-  top: 173rem;
+  top: 175rem;
   left: 38.7rem;
   font-size: 1.4rem;
   color: #c9d1d9;
