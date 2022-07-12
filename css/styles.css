@@ -1211,7 +1211,7 @@ body {
 
 .quatro .start {
   font-size: 2rem;
-  top: 209rem;
+  top: 207rem;
   right: 9rem;
   cursor: pointer;
   position: absolute;
@@ -1220,13 +1220,13 @@ body {
 
 .quatro .total {
   position: absolute;
-  top: 213rem;
+  top: 211rem;
   right: 12rem;
 }
 
 .quatro .counter {
   position: absolute;
-  top: 213rem;
+  top: 211rem;
   right: 9rem;
 }
 
