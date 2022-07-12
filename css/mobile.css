@@ -237,6 +237,15 @@
     left: 9.2rem;
   }
 
+  .quatro .design-card {
+    top: 230rem;
+    left: 2.9rem;
+  }
+
+  .quatro .design-card h4 {
+    font-weight: 400;
+  }
+
   .quatro .start {
     top: 258rem;
     right: 1rem;
