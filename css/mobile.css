@@ -221,7 +221,6 @@
   }
 
   .quatro {
-    width: 100vw;
     height: 150vh;
   }
 
@@ -249,17 +248,17 @@
   }
 
   .quatro .start {
-    top: 273rem;
-    left: 18rem;
+    top: 277rem;
+    right: 1rem;
   }
 
   .quatro .total {
-    position: absolute;
-    top: 276rem;
+    top: 280rem;
+    right: 3rem;
   }
 
   .quatro .counter {
-    top: 276rem;
+    top: 280rem;
     right: 1rem;
   }
 
