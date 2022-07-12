@@ -1117,7 +1117,7 @@ body {
 
 .quatro {
   width: 100vw;
-  height: 90vh;
+  height: 95vh;
 }
 
 .quatro .servicos {
@@ -1211,7 +1211,7 @@ body {
 
 .quatro .start {
   font-size: 2rem;
-  top: 204rem;
+  top: 205rem;
   right: 9rem;
   cursor: pointer;
   position: absolute;
@@ -1220,19 +1220,18 @@ body {
 
 .quatro .total {
   position: absolute;
-  top: 208rem;
+  top: 209rem;
   right: 12rem;
 }
 
 .quatro .counter {
   position: absolute;
-  top: 208rem;
+  top: 209rem;
   right: 9rem;
 }
 
 footer {
   position: absolute;
-  top: 217rem;
   width: 100vw;
   height: 6rem;
   background-color: transparent;
